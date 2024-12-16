@@ -97,6 +97,8 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.vscode
+*.angular
 
 # Chutzpah Test files
 _Chutzpah*
@@ -205,6 +207,10 @@ PublishScripts/
 # NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
 
 # Microsoft Azure Build Output
 csx/

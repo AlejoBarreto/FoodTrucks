@@ -1,0 +1,11 @@
+
+<div id="map"></div>
+<div class="button-container">
+    <button mat-flat-button class="search-button" *ngIf="showSearchButton" (click)="onSearch()">
+        <mat-icon>search</mat-icon>
+        Buscar en esta zona
+        </button>
+        <div *ngIf="isLoading" class="spinner-container">
+            <mat-spinner ></mat-spinner>
+        </div>        
+</div>

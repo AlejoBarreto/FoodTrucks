@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodTruck.Core\FoodTruck.Core.csproj" />
+    <ProjectReference Include="..\FoodTruck.Infrastructure\FoodTruck.Infrastructure.csproj" />
+    <ProjectReference Include="..\FoodTruck.SharedKernel\FoodTruck.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
